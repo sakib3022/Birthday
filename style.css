@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+    font-family: 'Merriweather', serif;
+}
+/* css for manu */
+
+.manu{
+    background-color: rgb(41, 4, 76);
+}
+ul{
+    text-align: center;
+
+}
+ul li{
+    display: inline-block;
+    margin-left:-4px ;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    border-right: 1px solid olivedrab;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    background-color: rgb(78, 78, 7);
+    color: white;
+}
+ul li :nth-child(1){
+    border-left: 1px solid olivedrab;
+}
+
+            /* css for frist box */
+.top{
+    
+}
+
+section{
+    margin-top: 50px;
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.box h1{
+    color: yellow;
+    margin-left: 22px;
+}
+
+.box h2{
+    color: rgb(64, 154, 64);
+    margin-left: 22px;
+}
+.box p{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+.box h2{
+    color: rgb(64, 154, 64);
+}
+
+
+.box{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.box img{
+    width: 70%;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(to right, skyblue,red,blue);
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+   transition: 5s;
+}
+.btn:hover{
+    background-image: linear-gradient(to right, rgb(195, 196, 196),rgb(142, 89, 89),rgb(65, 65, 140));
+    width: 200px;
+    text-align: center;
+    transition: 50s;
+}
+
+                     /* css for mid seation */
+
+
+.mid{
+   
+    }
+
+
+
+
+/* crad desing */
+
+
+.team{
+    background-color: rebeccapurple;
+    width: 20%;
+    padding: 30px 20px;
+    float: left;
+    border: 5px solid;
+    border-image: linear-gradient(to left, red,blue,skyblue);
+    border-image-slice:1;
+    border-radius: 15px; important;
+    margin: 0px 37px;
+}
+.team:hover{
+    background-image: linear-gradient(to left top, #d0a1bc, #be90b7, #a981b3, #8f74af, #7068ac, #5a6cb1, #3d70b3, #0074b3, #0084b6, #0093b4, #00a1ae, #3dada6););
+}
+.team img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    display: block;
+    margin: auto;
+}
+.team h2{
+    font-family: serif;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+}
+.team p{
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: rgb(245, 245, 245);
+}
+.mid2 h1{
+    text-align: center;
+    color: white;
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+                            /* images glarry */
+
+.img-glarry{
+    height: 600px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.glarry img{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    height: 572px;
+    margin-left:38px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.img-glarry h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0;
+    color: white;
+}
+
+/* about-us */
+
+.about-itam{
+    
+    margin-top: 50px;
+    padding: 30px 0px;
+    width: 30%;
+    border-left: 10px solid;
+     border-image: linear-gradient( to top, rgb(189, 162, 150), rgb(95, 7, 106));
+     border-image-slice: 1;
+     
+}
+
+.head{
+    margin-bottom: 10px;
+    color: rgb(96, 255, 64);
+}
+.hat{
+    margin-bottom: 15px;
+    color: palegoldenrod;
+}
+
+.about-us h2{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.about-us p{
+    color: white;
+}
+
+.box-for{
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 2%;
+}
+.box-sha{
+    box-shadow: 0 0 10px 5px blue;
+}
+.ses{
+    margin-bottom: 50px;
+}
+.ses p{
+
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+}
