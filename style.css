@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rebeccapurple;
+    background-color: rgb(31, 114, 209);
     font-family: 'Merriweather', serif;
 }
 /* css for manu */
 
 .manu{
-    background-color: rgb(41, 4, 76);
+    background-color: rgb(23, 43, 228);
 }
 ul{
     text-align: center;
@@ -24,15 +24,15 @@ ul li a{
     font-size: 20px;
     display: inline-block;
     padding: 15px 25px;
-    border-right: 1px solid olivedrab;
+    border-right: 1px solid rgb(214, 201, 18);
     text-transform: capitalize;
 }
 ul li a:hover{
-    background-color: rgb(78, 78, 7);
+    background-color: rgb(226, 134, 14);
     color: white;
 }
 ul li :nth-child(1){
-    border-left: 1px solid olivedrab;
+    border-left: 1px solid rgb(72, 153, 5);
 }
 
             /* css for frist box */
